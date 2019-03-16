@@ -1,3 +1,5 @@
+
+
 #content {
     width: 960px;
     padding: 20px;
@@ -79,6 +81,7 @@ h2 {
     margin-bottom: 20px;
     margin-right: 0 auto;
     border: transparent;
+    display: flex;
   }
   
   img.profile {
@@ -152,3 +155,386 @@ h2 {
       width: 200px;
       height: 140px;
   }
+
+  
+
+    @media screen and (max-width: 640px) {
+
+      form {
+        flex: 1 auto;
+      }
+      
+      #content {
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+      }
+     
+    .wrapper {
+      width: 100%;
+      background-color: transparent;
+      position: relative;
+      margin: 0 auto;
+        
+      
+      
+      
+      
+      text-align: center;
+      margin-bottom: 0 auto;
+      border-bottom-color: transparent;
+      
+    }  
+    
+
+    
+    p {
+        font-size: 12px;
+        line-height: 28px;
+        padding: 20px;
+        background-color: white;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        width: 100%;
+        
+        
+      }
+    
+    
+    h1 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        margin-left: 100px;
+        width: 100%;
+
+        position: fixed;
+        
+        top: 0;
+        padding: 15px;
+        
+        
+        text-align: center;
+        margin-bottom: 0;
+        
+        
+        
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    #btn-group button {
+          background-color: transparent; 
+          color: #777777; 
+          
+          cursor: pointer; 
+          position: static;
+          
+          float: center;
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          flex: 1;
+          border: none;
+          
+        }
+
+     #header{
+          color: #ffffff;
+          margin-left: -160px;
+          position: static;
+          width: 100%;
+          text-align: center;
+          
+      }
+        
+      
+      
+    h2 {
+        color: #4aaaa5;
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-bottom: 2px solid #dddddd;
+        font-size: 14px;
+        text-align: center;
+        
+      }
+      
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#666666;
+        color: #777777;
+        text-align: center;
+        margin-top: 40px;
+        border-top: 8px solid #4aaaa5;
+      }
+      
+
+      
+      img.profile {
+        
+        margin-right: 10px;
+      }
+     
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #4aaaa5;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: white;
+        padding: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+      }
+    
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+      }
+      .grid-item {
+        background-color: transparent;
+        border: transparent;
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+      }
+      .imagecontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+      }
+      
+      .imagecentered {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #4aaaa5;
+        width: 50%
+      }
+    
+      img.portfolio {
+          width: 200px;
+          height: 140px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #content {
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+      }
+     
+    .wrapper {
+      width: 100%;
+      background-color: transparent;
+      position: relative;
+      margin: 0 auto;
+        
+      
+      
+      
+      
+      text-align: center;
+      margin-bottom: 0 auto;
+      border-bottom-color: transparent;
+      
+    }  
+    
+
+    
+    p {
+        font-size: 12px;
+        line-height: 28px;
+        padding: 20px;
+        background-color: white;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        width: 100%;
+        
+        
+      }
+    
+    
+    h1 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        margin-left: 100px;
+        width: 100%;
+
+        position: fixed;
+        
+        top: 0;
+        padding: 15px;
+        
+        
+        text-align: center;
+        margin-bottom: 0;
+        
+        
+        
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    #btn-group button {
+          background-color: transparent; 
+          color: #777777; 
+          
+          cursor: pointer; 
+          position: static;
+          
+          flex: 1;
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          
+          border: none;
+          
+        }
+
+     #header{
+          color: #ffffff;
+          margin-left: -160px;
+          position: static;
+          width: 100%;
+          text-align: center;
+          
+      }
+        
+      
+      
+    h2 {
+        color: #4aaaa5;
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-bottom: 2px solid #dddddd;
+        font-size: 14px;
+        text-align: center;
+        
+      }
+      
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#666666;
+        color: #777777;
+        text-align: center;
+        margin-top: 40px;
+        border-top: 8px solid #4aaaa5;
+      }
+      
+
+      
+      img.profile {
+        
+        margin-right: 10px;
+      }
+     
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #4aaaa5;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: white;
+        padding: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+      }
+    
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+      }
+      .grid-item {
+        background-color: transparent;
+        border: transparent;
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+      }
+      .imagecontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+      }
+      
+      .imagecentered {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #4aaaa5;
+        width: 50%
+      }
+    
+      img.portfolio {
+          width: 200px;
+          height: 140px;
+      }
+    }
